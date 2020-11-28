@@ -52,11 +52,6 @@ bool MyGame::onInit(void)
     return false;
   }
 
-  SDL_SetRenderDrawColor((SDL_Renderer *) renderer, 255, 255, 255, 0);
-
-  SDL_RenderClear((SDL_Renderer *) renderer);
-  SDL_RenderPresent((SDL_Renderer *) renderer);
-
   return true;
 }
 
