@@ -10,7 +10,7 @@ COMPILER_FLAGS = -w
 LINKER_FLAGS = -lSDL2
 
 # Executable Name
-EXEC_NAME = MyGame
+EXEC_NAME = MyGame.out
 
 all :
 	$(CC) $(OBJECTS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(EXEC_NAME)
